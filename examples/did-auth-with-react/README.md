@@ -1,20 +1,18 @@
-# DID:Auth with React
+# covID: Integrating hospital verified test results to assist in contact tracing to help beat Covid-19
 
-> Demo application that demonstrates how `@arcblock/did-connect` works with a web application bootstrapped with `create-react-app`.
+> Demo application that demonstrates how `@arcblock/did-connect` works as an integration point for hospitals and contact-tracing solutions
 
 ![](./login.gif)
 
 ## Requirements
 
 - Node.js v10+
+- ArcBlock DiD service
+- MongoDB
 
 ## Getting Started
 
 ```shell
-make init
-make run
+yarn
+yarn start
 ```
-
-## More Usage Examples
-
-Checkout the [documentation for `@arcblock/did-connect`](https://arcblock.github.io/ux/?path=/docs/connect-introduction--page).
